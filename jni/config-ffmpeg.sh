@@ -334,6 +334,10 @@ FF_FEATURE_MUXER="\
 
 # haeram27 start
 FF_FEATURE_DECODER="\
+--enable-gpl \
+--enable-nonfree \
+--enable-version3 \
+--enable-decoders \
 --disable-decoder=jacosub \
 --disable-decoder=microdvd \
 --disable-decoder=mpl2 \
@@ -345,10 +349,6 @@ FF_FEATURE_DECODER="\
 --disable-decoder=subviewer \
 --disable-decoder=subviewer1 \
 --disable-decoder=vplayer \
---enable-gpl \
---enable-nonfree \
---enable-version3 \
---enable-decoders \
 "
 # haeram27 end
 
