@@ -345,18 +345,10 @@ FF_FEATURE_DECODER="\
 --disable-decoder=subviewer \
 --disable-decoder=subviewer1 \
 --disable-decoder=vplayer \
---enable-decoder=vorbis \
---enable-decoder=opus \
---enable-decoder=flac \
---enable-decoder=alac \
---enable-decoder=pcm_mulaw \
---enable-decoder=pcm_alaw \
---enable-decoder=mp3 \
---enable-decoder=amrnb \
---enable-decoder=amrwb \
---enable-decoder=aac \
---enable-decoder=ac3 \
---enable-decoder=eac3 \
+--enable-gpl \
+--enable-nonfree \
+--enable-version3 \
+--enable-decoders \
 "
 # haeram27 end
 

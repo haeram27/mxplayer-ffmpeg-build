@@ -21,13 +21,16 @@ https://developer.android.com/ndk/downloads
 - jni/rebuild-ffmpeg-open-source.sh
 - jni/rebuild-ffmpeg.sh
 - jni/collect-ffmpeg-libs.sh
+- jni/config-ffmpeg-libs.sh
 
 ## run container and install build tools
 ### in case of rocky 9
 #### run linux container
 ```
-cd <ffmpeg-src-root>
-docker run --rm --it -u0 -v ${PWD}:/work -w /work rockylinux/rockylinux:9.5
+(host)$ cd <ffmpeg-src-root>
+(host)$ docker run --rm --it -u0 -v ${PWD}:/work -w /work rockylinux/rockylinux:9.5
+(cont)$ cd jni
+(cont)$ ./rebuild-ffmpeg-open-source.sh
 ```
 
 #### recommnended build-tools
