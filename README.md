@@ -36,8 +36,10 @@ https://developer.android.com/ndk/downloads
 #### recommnended build-tools
 ```
 dnf groupinstall -y "Development Tools"
-dnf install -y cmake meson ninja-build
-dnf install -y perl which
+dnf install -y cmake meson ninja-build perl which
+dnf install -y \
+    yasm nasm libaom-devel libass-devel libtheora-devel \
+    libvorbis-devel libvpx-devel zlib-devel
 ```
 
 ## run build
